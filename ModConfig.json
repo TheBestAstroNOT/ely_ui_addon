@@ -1,21 +1,38 @@
 {
   "ModId": "femc.addon.ely.art",
-  "ModName": "Femc Addon: Ely's Art",
-  "ModAuthor": "Me",
+  "ModName": "Femc Addon: Ely\u0027s Art",
+  "ModAuthor": "Ely / \u30AC\u30EB\u30C7\u30E9\u30F4\u30B8(galderavg) / TheBestAstroNOT",
   "ModVersion": "1.0.0",
-  "ModDescription": "Description",
+  "ModDescription": "This addon adds Ely\u0027s version of the UI to the game.",
   "ModDll": "femc.addon.ely.art.dll",
-  "ModIcon": "Preview.png",
+  "ModIcon": "Ely Art.png",
   "ModR2RManagedDll32": "x86/femc.addon.ely.art.dll",
   "ModR2RManagedDll64": "x64/femc.addon.ely.art.dll",
   "ModNativeDll32": "",
   "ModNativeDll64": "",
+  "Tags": [
+    "GUI/HUD"
+  ],
+  "CanUnload": null,
+  "HasExports": null,
   "IsLibrary": false,
   "ReleaseMetadataFileName": "femc.addon.ely.art.ReleaseMetadata.json",
-  "PluginData": {},
+  "PluginData": {
+    "GitHubRelease": {
+      "UserName": "TheBestAstroNOT",
+      "RepositoryName": "ely_ui_addon",
+      "UseReleaseTag": true,
+      "AssetFileName": "Mod.zip"
+    }
+  },
   "IsUniversalMod": false,
-  "ModDependencies": [ "reloaded.sharedlib.hooks" ],
+  "ModDependencies": [
+    "reloaded.sharedlib.hooks",
+    "UnrealEssentials"
+  ],
   "OptionalDependencies": [],
-  "SupportedAppId": [],
+  "SupportedAppId": [
+    "p3r.exe"
+  ],
   "ProjectUrl": ""
 }
